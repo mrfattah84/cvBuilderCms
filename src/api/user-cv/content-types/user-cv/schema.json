@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_cvs",
+  "info": {
+    "singularName": "user-cv",
+    "pluralName": "user-cvs",
+    "displayName": "UserCV",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cvid": {
+      "type": "uid"
+    },
+    "userEmail": {
+      "type": "email"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "address": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "json"
+    },
+    "summery": {
+      "type": "text"
+    },
+    "education": {
+      "type": "json"
+    },
+    "skills": {
+      "type": "json"
+    },
+    "themeColor": {
+      "type": "string"
+    }
+  }
+}
